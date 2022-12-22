@@ -1,0 +1,38 @@
+.right-buttom-box{
+    width: 180px;
+    height: 120px;
+    background: red;
+    position: fixed;
+    z-index: 20;
+    right: 0;
+    bottom: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    color: white;
+}
+.right-buttom-box button{
+    border: none;
+    outline: none;
+    padding: 6px;
+    border-radius: 6px;
+    color: lightgray;
+       
+}
+.right-shop-box{
+    height: 100vh;
+    width: 400px;
+    background-color: white;
+    position: fixed;
+    right: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: all .2s;
+}
+.right-shop-box-true{
+   right: 0;   
+}

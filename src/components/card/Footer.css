@@ -1,0 +1,56 @@
+
+.container{
+    display: flex;
+     background-color: black;
+     width: 100%;
+     color: white;
+}
+.icon{
+   width: 300px;
+}
+.p1{
+border-bottom: yellow 2px solid ;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    /* justify-content:space-evenly ; */
+    font-size: 20px;
+    width: 180px;
+}
+.icon1{
+    margin-left: 50px;
+}
+.border{
+    border-bottom: 1px solid yellow
+    
+  ;
+}
+.card2{
+    margin-left: 100px;
+}
+.pastki img{
+    position: relative;
+    width: 60px;
+    left: 100px;
+    margin-left: 10px;
+    
+}
+.left{
+    position: relative;
+    margin-left: 100px;
+}
+.pastki{
+    display: flex;
+    margin-left: 10px;
+}
+.left img{
+    margin-left: 30px;
+}
+.pastki{
+    border-top:white 1px solid;
+    
+}
+
+
